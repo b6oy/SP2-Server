@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C74F520E-79A7-46DF-AC4D-7344D2576EA7}"
+	ProjectSection(SolutionItems) = preProject
+		bin\iosocketdll.bin = bin\iosocketdll.bin
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Login32", "Login32\Login32.vcxproj", "{3FA0A21C-7626-489C-929D-C57E0C68EA9D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared", "shared\shared.vcxproj", "{815E9175-5395-4559-9041-B5354DFA3B98}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Channel32", "Channel32\Channel32.vcxproj", "{01A2C1ED-9BD3-4448-8598-91DAD728AF91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "db", "db", "{E3536A3D-5CC2-47C5-9800-07571E7AF2EC}"
+	ProjectSection(SolutionItems) = preProject
+		db\create_db.sql = db\create_db.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FA0A21C-7626-489C-929D-C57E0C68EA9D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FA0A21C-7626-489C-929D-C57E0C68EA9D}.Debug|Win32.Build.0 = Debug|Win32
+		{3FA0A21C-7626-489C-929D-C57E0C68EA9D}.Release|Win32.ActiveCfg = Release|Win32
+		{3FA0A21C-7626-489C-929D-C57E0C68EA9D}.Release|Win32.Build.0 = Release|Win32
+		{815E9175-5395-4559-9041-B5354DFA3B98}.Debug|Win32.ActiveCfg = Debug|Win32
+		{815E9175-5395-4559-9041-B5354DFA3B98}.Debug|Win32.Build.0 = Debug|Win32
+		{815E9175-5395-4559-9041-B5354DFA3B98}.Release|Win32.ActiveCfg = Release|Win32
+		{815E9175-5395-4559-9041-B5354DFA3B98}.Release|Win32.Build.0 = Release|Win32
+		{01A2C1ED-9BD3-4448-8598-91DAD728AF91}.Debug|Win32.ActiveCfg = Debug|Win32
+		{01A2C1ED-9BD3-4448-8598-91DAD728AF91}.Debug|Win32.Build.0 = Debug|Win32
+		{01A2C1ED-9BD3-4448-8598-91DAD728AF91}.Release|Win32.ActiveCfg = Release|Win32
+		{01A2C1ED-9BD3-4448-8598-91DAD728AF91}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

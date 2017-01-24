@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TcpServer.cpp" />
+    <ClCompile Include="UdpServer.cpp" />
+    <ClCompile Include="ini.cpp" />
+    <ClCompile Include="IOSocket.cpp" />
+    <ClCompile Include="FieldValidator.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="MessageValidator.cpp" />
+    <ClCompile Include="SpServer.cpp" />
+    <ClCompile Include="TcpMessageHandler.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="SpDatabaseWrapper.cpp" />
+    <ClCompile Include="UserInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TcpServer.h" />
+    <ClInclude Include="UdpServer.h" />
+    <ClInclude Include="console.h" />
+    <ClInclude Include="ini.h" />
+    <ClInclude Include="IOSocket.h" />
+    <ClInclude Include="typedefs.h" />
+    <ClInclude Include="FieldValidator.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="MessageTypes.h" />
+    <ClInclude Include="MessageValidator.h" />
+    <ClInclude Include="SpServer.h" />
+    <ClInclude Include="TcpMessageHandler.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="SpDatabaseWrapper.h" />
+    <ClInclude Include="UserInfo.h" />
+  </ItemGroup>
+</Project>

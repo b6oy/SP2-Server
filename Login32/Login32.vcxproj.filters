@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="LoginServer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MySQL.cpp" />
+    <ClCompile Include="messages\tcp\client\DefaultCharacterChangeMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\LoginMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\ServerInfoRequestMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\TrainingCompleteMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ServerInfoMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\TrainingCompleteResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\DefaultCharacterChangeResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\LoginResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="messages\tcp\client\ReconnectMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\GuildMarkResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\GuildMarkMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\UnknownResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClientPackets.h" />
+    <ClInclude Include="ServerPackets.h" />
+    <ClInclude Include="LoginServer.h" />
+    <ClInclude Include="MySQL.h" />
+    <ClInclude Include="ServerEnum.h" />
+    <ClInclude Include="messages\tcp\client\DefaultCharacterChangeMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\LoginMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\ServerInfoRequestMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\TrainingCompleteMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ServerInfoMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\TrainingCompleteResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\DefaultCharacterChangeResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\LoginResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h" />
+    <ClInclude Include="messages\tcp\client\ReconnectMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\GuildMarkResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\GuildMarkMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\UnknownResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="messages">
+      <UniqueIdentifier>{119ff603-4a22-4288-a9f6-3b87047c56c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="messages\tcp">
+      <UniqueIdentifier>{a05c90fd-df16-48a6-8edc-0e3fc15d0920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="messages\tcp\client">
+      <UniqueIdentifier>{a1b84d7e-7994-4ffd-850c-089e0157f9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="messages\tcp\server">
+      <UniqueIdentifier>{e0cef8d1-95b8-45d2-bbbd-c1eb2143bd3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

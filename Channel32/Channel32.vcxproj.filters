@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MySQL.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="GameServer.cpp" />
+    <ClCompile Include="messages\tcp\client\AddFriendMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\BigMatchNpcDeathMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\ChatMessageMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\DeathMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\EquipmentChangeMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\FieldScrollPickMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\FindUserMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\FriendListRequestMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\GameShopItemBuyMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\GameShopItemSellMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\GiftMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\ItemUpgradeMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\KssnVerificationRequestMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\MemoMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\MissionEntrancePassageCrossMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\MissionLevelClearMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\NpcKillMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\NpcListMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\QuestProgressMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\RoomCreationMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\RoomInfoRequestMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\RoomJoinMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\RoomTitleChangeMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\RoomUserDataRequestMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\RoomUserKickMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\RoomUserStateChangeMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\ScrollBuyOrSellMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\ScrollUseMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\ServerJoinMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\SpawnRequestMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\TradeStateChangeMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\UserIdExistenceCheckMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\UserInfoRequestMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\UserShop2AddOrRemoveMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\UserShop2ItemBuyMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\UserShop2SearchMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\UserShopOperationMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ChatMessageArrivalMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\MissionLevelMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\MysteryRoomUserJoinMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\RoomBasicInfoUpdateMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\RoomCreationResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\RoomInfoMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\RoomJoinResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\RoomListMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\RoomUserDataMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ServerJoinResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ServerJoinUserDataMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\UserInfoMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\udp\UdpHandShake.cpp">
+      <Filter>messages\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\LobbyInfoMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\udp\UdpKeepAlive.cpp">
+      <Filter>messages\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ShopJoinMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ShopBuyResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ItemUpgradeResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\udp\UdpItemUpgrade.cpp">
+      <Filter>messages\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\AddFriendResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\FriendListResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\FindUserResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ConfirmIDResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\ConfirmIDMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ShopSellResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ScrollBuyOrSellResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ScrollPickResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\ScrollPickMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\UserShop2SearchResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\MemoResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\MemoReceiveMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\GiftVerifyIDMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\SendGiftResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp" />
+    <ClCompile Include="messages\tcp\server\RoomExitResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\RoomTitleChangeResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\NpcListResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\NpcKillResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ResultsResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\DeathResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\FightCompleteMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\InGameMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\SpawnResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ReviveResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\ReviveMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\NewMasterResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\MissionNpcKillResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\RoundClearResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\NewKingResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\BigBattleNpcKoResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\BigBattleNpcListMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\BigBattleNpcMultiplierResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\MissionPassageCrossResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\MissionAfterResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\CrystalMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\CrystalsResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\TradeSuccessResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\OpenUserShopResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\UserShopBuyResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\UserShopResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\GoalMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\GoalResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\HokeyResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\HokeyMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\AfterJoinResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\ElementBuyMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ElementBuyResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\client\ForceChargeMessage.cpp">
+      <Filter>messages\tcp\client</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ForceChargeResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\SearchShopBuyResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\GiftReceiveMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ItemReceiveMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\udp\UdpForward.cpp">
+      <Filter>messages\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ElementSpawnMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="messages\tcp\server\ElementCapturedMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="rng.cpp" />
+    <ClCompile Include="messages\tcp\server\LevelUpResponseMessage.cpp">
+      <Filter>messages\tcp\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClientPackets.h" />
+    <ClInclude Include="ServerPackets.h" />
+    <ClInclude Include="MySQL.h" />
+    <ClInclude Include="ServerEnum.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="GameServer.h" />
+    <ClInclude Include="messages\tcp\client\AddFriendMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\BigMatchNpcDeathMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\ChatMessageMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\DeathMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\EquipmentChangeMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\FieldScrollPickMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\FindUserMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\FriendListRequestMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\GameShopItemBuyMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\GameShopItemSellMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\GiftMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\ItemUpgradeMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\KssnVerificationRequestMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\MemoMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\MissionEntrancePassageCrossMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\MissionLevelClearMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\NpcKillMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\NpcListMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\QuestProgressMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\RoomCreationMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\RoomInfoRequestMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\RoomJoinMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\RoomTitleChangeMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\RoomUserDataRequestMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\RoomUserKickMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\RoomUserStateChangeMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\ScrollBuyOrSellMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\ScrollUseMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\ServerJoinMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\SpawnRequestMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\TradeStateChangeMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\UserIdExistenceCheckMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\UserInfoRequestMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\UserShop2AddOrRemoveMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\UserShop2ItemBuyMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\UserShop2SearchMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\UserShopOperationMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ChatMessageArrivalMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\MissionLevelMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\MysteryRoomUserJoinMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\RoomBasicInfoUpdateMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\RoomCreationResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\RoomInfoMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\RoomJoinResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\RoomListMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\RoomUserDataMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ServerJoinResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ServerJoinUserDataMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\UserInfoMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\udp\UdpHandShake.h">
+      <Filter>messages\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\LobbyInfoMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\udp\UdpKeepAlive.h">
+      <Filter>messages\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ShopJoinMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ShopBuyResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ItemUpgradeResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\udp\UdpItemUpgrade.h">
+      <Filter>messages\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\AddFriendResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\FriendListResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerFS1.h" />
+    <ClInclude Include="messages\tcp\server\FindUserResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ConfirmIDResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\ConfirmIDMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ShopSellResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ScrollBuyOrSellResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ScrollPickResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\ScrollPickMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\UserShop2SearchResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\MemoResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\MemoReceiveMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\GiftVerifyIDMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\SendGiftResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h" />
+    <ClInclude Include="messages\tcp\server\RoomExitResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="all_messages.h" />
+    <ClInclude Include="messages\tcp\server\RoomTitleChangeResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\NpcListResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\NpcKillResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ResultsResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\DeathResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\FightCompleteMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\InGameMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\SpawnResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ReviveResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\ReviveMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\NewMasterResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\MissionNpcKillResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\RoundClearResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\NewKingResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\BigBattleNpcKoResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\BigBattleNpcListMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\BigBattleNpcMultiplierResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\MissionPassageCrossResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\MissionAfterResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\CrystalMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\CrystalsResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\TradeSuccessResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\OpenUserShopResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\UserShopBuyResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\UserShopResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\GoalMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\GoalResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\HokeyResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\HokeyMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\AfterJoinResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\ElementBuyMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ElementBuyResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\client\ForceChargeMessage.h">
+      <Filter>messages\tcp\client</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ForceChargeResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\SearchShopBuyResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\GiftReceiveMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ItemReceiveMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\udp\UdpForward.h">
+      <Filter>messages\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ElementSpawnMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="messages\tcp\server\ElementCapturedMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="rng.h" />
+    <ClInclude Include="messages\tcp\server\LevelUpResponseMessage.h">
+      <Filter>messages\tcp\server</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="messages">
+      <UniqueIdentifier>{119ff603-4a22-4288-a9f6-3b87047c56c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="messages\tcp">
+      <UniqueIdentifier>{a05c90fd-df16-48a6-8edc-0e3fc15d0920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="messages\tcp\client">
+      <UniqueIdentifier>{a1b84d7e-7994-4ffd-850c-089e0157f9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="messages\tcp\server">
+      <UniqueIdentifier>{e0cef8d1-95b8-45d2-bbbd-c1eb2143bd3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="messages\udp">
+      <UniqueIdentifier>{25723074-8b27-4310-868e-1c386faeda13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
